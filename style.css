@@ -1,0 +1,25 @@
+@import "banner.css";
+@import "buttons.css";
+@import "cards.css";
+@import "footer.css";
+
+a	{
+	text-decoration: none;
+}
+
+body	{
+	margin: 0;
+}
+
+.container{
+	width: 90%;
+	margin: 24px auto;
+
+}
+
+{
+
+<img src="images/dog.jpg" alt="dog image" style="max-width: 300px;">
+<img src="images/cat.jpg" alt="cat image" style="max-width: 300px;">
+<img src="images/fish.jpg" alt="fish image" style="max-width: 300px;">
+}

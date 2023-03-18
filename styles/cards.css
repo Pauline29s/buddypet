@@ -1,0 +1,46 @@
+.cards{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 16px;
+}
+
+.cards{
+	background-color: white;
+	padding: 16px;
+	border-radius: 6px;
+	box-shadow: 1px 2px 4px 6px rgba(0, 0, 0, 0.6);
+	text-align: center;
+}
+
+.cards img{
+	
+
+<img src="images/dog.jpg" alt="dog image" style="max-width: 300px;">
+<img src="images/cat.jpg" alt="cat image" style="max-width: 300px;">
+<img src="images/fish.jpg" alt="fish image" style="max-width: 300px;">
+
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+
+}
+
+@media (min-width: 576px) {...}
+@media (min-width: 768px) {
+	.cards {
+		grid-template-columns: 1fr 1fr;
+	}
+@media (min-width: 992px) {
+	.cards {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+@media (min-width: 1200px) {...}
+@media (min-width: 1400px) {...}
+}
+.images-container {
+  display: flex;
+  justify-content: center;
+}
+.images-container img {
+  margin: 0 10px;
+}
